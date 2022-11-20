@@ -1,0 +1,27 @@
+# Vim
+.*.swp
+*.swp
+.*swo
+*.swo
+tags
+tags.lock
+tags.temp
+
+# Vscode
+.vscode/
+
+# Protobuf-generated files
+*.pb.h
+*.pb.cc
+
+# Backup files
+*.bak
+
+# Compiled generated files
+cmake/
+
+# Compiled Dynamic libraries
+*.so
+
+# Executables
+*.out
