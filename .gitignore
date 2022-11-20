@@ -9,19 +9,35 @@ tags.temp
 
 # Vscode
 .vscode/
+*.iml
+
+# OS X folder attributes
+.DS_store
+
+# Compressed files
+*.gz
+*.zip
+
+# Backup files
+*.bak
 
 # Protobuf-generated files
 *.pb.h
 *.pb.cc
-
-# Backup files
-*.bak
 
 # Compiled generated files
 cmake/
 
 # Compiled Dynamic libraries
 *.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
 
 # Executables
 *.out
+*.exe
+*.app
